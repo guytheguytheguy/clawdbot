@@ -85,3 +85,11 @@ nul
 .agent/*.json
 !.agent/workflows/
 local/
+
+# Additional safety entries
+.env.*
+.env.local
+.env.production
+.next/
+.vercel/
+*.log
