@@ -17,26 +17,31 @@ node dist/entry.js gateway
 ## Commands
 
 ### Start the bot
+
 ```bash
 node dist/entry.js gateway
 ```
 
 ### Re-link WhatsApp (if disconnected)
+
 ```bash
 node dist/entry.js channels login
 ```
 
 ### Check status
+
 ```bash
 node dist/entry.js channels status
 ```
 
 ### View logs
+
 ```bash
 node dist/entry.js logs --follow
 ```
 
 ### Stop the bot
+
 Press `Ctrl+C` in the terminal running the gateway.
 
 ## How to Use
@@ -56,10 +61,12 @@ Press `Ctrl+C` in the terminal running the gateway.
 ## Troubleshooting
 
 **Bot not responding?**
+
 - Check gateway is running: `node dist/entry.js gateway`
 - Re-link WhatsApp: `node dist/entry.js channels login`
 
 **Need to rebuild after updates?**
+
 ```bash
 git pull
 pnpm install
